@@ -1,0 +1,121 @@
+html, body {
+	margin: 0; 
+	height: 100%; 
+	overflow: hidden;
+}
+
+*,*:before, *:after{
+	box-sizing: inherit;
+}
+
+/* GLOBALES */
+img{
+	max-width: 100%; 
+}
+
+body{
+	font-size: 1.60rem;
+	line-height: 2;
+}
+
+.contenedor{
+	max-width: 120rem;
+	margin-left: auto;
+	width: 95%;
+	margin-right: auto;
+}
+
+h1{
+	font-size: 3.8rem;
+}
+
+h2{
+	font-size: 3.4rem;
+}
+
+h3{
+	font-size: 3rem;
+}
+
+h4{
+	font-size: 2.60rem;
+}
+
+.seccion{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.font-negro{
+	color: #000;
+}
+
+/* BOTONES */
+.boton{
+	color: white;
+	font-weight: 700;
+	text-decoration: none;
+	font-size: 1.8rem;
+	padding: 1rem 3rem;
+	display: inline-block;
+	text-align: center;
+	display: block; /* PAra que tome todo el espacio disponible0 0 100%;*/
+	flex: 0 0 100%;
+}
+
+@media (min-width: 768px) {
+	.boton{
+		display: inline-block;
+		flex: 0 0 auto;
+	}
+}
+
+.boton:hover{
+	cursor: pointer;
+}
+
+
+/* INDEX */
+.fondo{
+	background-image: url("../img/imagen.jpg");
+	width: 100%;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	z-index: -1;
+}
+
+.contenido{
+	flex: 0 0 95%;
+	color: #fff;
+	margin-top: 10rem;
+}
+
+.contenido-main{
+	height: 100%; 
+	display: flex;
+	flex-direction: column ;
+	justify-content: space-between;
+}
+
+.color-boton{
+	background-color: aqua;
+}
+
+/*
+.contenido p{
+	font-size: 1.8rem;
+}*/
+
+
+
+
+
+
+
+
