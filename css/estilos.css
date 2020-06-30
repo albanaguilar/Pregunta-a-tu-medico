@@ -1,7 +1,7 @@
 html, body {
 	margin: 0; 
-	height: 100%; 
-	overflow: hidden;
+	height: 100%;
+
 }
 
 *,*:before, *:after{
@@ -56,6 +56,15 @@ h4{
 	color: #000;
 }
 
+.font-titulos{
+	font-family: 'Vollkorn', serif;
+}
+
+.font-secundario{
+	font-family: 'EB Garamond', serif;
+}
+
+
 /* BOTONES */
 .boton{
 	color: white;
@@ -82,6 +91,10 @@ h4{
 
 
 /* INDEX */
+.pad2rem{
+	padding: 2rem;
+}
+
 .fondo{
 	background-image: url("../img/imagen.jpg");
 	width: 100%;
@@ -95,7 +108,8 @@ h4{
 .contenido{
 	flex: 0 0 95%;
 	color: #fff;
-	margin-top: 10rem;
+	margin: 5rem 2rem;
+
 }
 
 .contenido-main{
@@ -106,15 +120,17 @@ h4{
 }
 
 .color-boton{
-	background-color: aqua;
+	background-color: #26a59a;
 }
 
-/*
-.contenido p{
-	font-size: 1.8rem;
-}*/
-
-
+@media (max-width: 768px){
+	main h3{
+		font-size: 2rem;
+	}
+	main h4{
+		font-size: 1.8rem;
+	}
+}
 
 
 

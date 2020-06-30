@@ -7,6 +7,11 @@ document.addEventListener('DOMContentLoaded', function() {
 // END FEATURE DISCOVERY
 
 
-
+//MODAL
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.modal');
+    var instances = M.Modal.init(elems);
+  });
+// END MODAL
 
 
