@@ -11,7 +11,9 @@ html, body {
 /* GLOBALES */
 img{
 	max-width: 100%; 
+	margin-left: 5%;
 }
+
 
 body{
 	font-size: 1.60rem;
@@ -25,6 +27,10 @@ body{
 	margin-right: auto;
 }
 
+a {
+	margin-top: 3%;
+}
+
 h1{
 	font-size: 3.8rem;
 	text-decoration-color: black;
@@ -33,6 +39,9 @@ h1{
 
 h2{
 	font-size: 3.4rem;
+	margin-left: auto; 
+	margin-right: auto;
+	padding-right: 10%;
 }
 
 h3{
