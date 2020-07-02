@@ -1,7 +1,6 @@
 html, body {
 	margin: 0; 
 	height: 100%;
-
 }
 
 *,*:before, *:after{
@@ -11,9 +10,7 @@ html, body {
 /* GLOBALES */
 img{
 	max-width: 100%; 
-	margin-left: 5%;
 }
-
 
 body{
 	font-size: 1.60rem;
@@ -22,13 +19,7 @@ body{
 
 .contenedor{
 	max-width: 120rem;
-	margin-left: auto;
-	width: 95%;
-	margin-right: auto;
-}
-
-a {
-	margin-top: 3%;
+	/*width: 95%;*/
 }
 
 h1{
@@ -39,9 +30,6 @@ h1{
 
 h2{
 	font-size: 3.4rem;
-	margin-left: auto; 
-	margin-right: auto;
-	padding-right: 10%;
 }
 
 h3{
@@ -50,6 +38,10 @@ h3{
 
 h4{
 	font-size: 2.60rem;
+}
+
+h5{
+	font-size: 2.20rem;
 }
 
 .seccion{
@@ -94,12 +86,69 @@ h4{
 	}
 }
 
+@media (max-width: 768px) {
+	.boton{
+		color: white;
+		font-weight: 700;
+		text-decoration: none;
+		font-size: 1.2rem;
+		padding: 1rem 3rem;
+		display: inline-block;
+		text-align: center;
+		display: block; /* PAra que tome todo el espacio disponible0 0 100%;*/
+		flex: 0 0 100%;
+	}
+
+}
+
 .boton:hover{
 	cursor: pointer;
 }
 
 
 /* INDEX */
+
+
+.flex-box{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.imagen-dra{
+	width: 20%;
+}
+
+@media (max-width: 768px){
+	.imagen-dra{
+		width: 50%;
+	}
+
+	h1{
+		font-size: 2.8rem;
+		text-decoration-color: black;
+	}
+
+	h2{
+		font-size: 2.4rem;
+	}
+
+	h3{
+		font-size: 2rem;
+	}
+
+	h4{
+		font-size: 1.60rem;
+	}
+	h5{
+		font-size: 1.30rem;
+	}
+}
+
+.imagen-dra img {
+  display: inline-block;
+}
+
 .pad2rem{
 	padding: 2rem;
 }
@@ -107,17 +156,17 @@ h4{
 .fondo{
 	background-image: url("../img/imagen.jpg");
 	width: 100%;
-	height: 100vh;
+	height: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center center;
+	background-position: center;
 	z-index: -1;
 }
 
 .contenido{
 	flex: 0 0 95%;
 	color: #fff;
-	margin: 5rem 2rem;
+	margin: 1.5rem 1.5rem;
 
 }
 
@@ -129,7 +178,7 @@ h4{
 }
 
 .color-boton{
-	background-color: #26a59a;
+	background-color: #76aadb;
 }
 
 @media (max-width: 768px){
@@ -142,7 +191,9 @@ h4{
 }
 
 
-
+.boton-mod:hover{
+	background-color: #76aadb;
+}
 
 
 
